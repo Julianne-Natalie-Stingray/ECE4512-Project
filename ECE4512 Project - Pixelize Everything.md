@@ -54,3 +54,17 @@ Segment the image into blocks (size predefined) and determine the block's color 
 - Dirty color. If the original image is rich in color (like the van-gogh case), the visual can be disappointing.
 - Blurred edges. Unsatisfactory.
 ```
+# 6	MVP ver.2
+Ignore it, i have no idea what I'm doing.
+# 7	Palette ver.1 and ver.2
+ver.1:
+```
+I have implemented basic k-means palette with random initial centroids. Not yet integrated with former pixelation logic.
+Problem:
+1. important but statistically insignificant colors are ignored. Allowing more color representatives can handle it, but only to a degree
+2. wrong "nearest color" is assigned to some pixels
+3. images with gradient ascending / descending background can greatly affect the result. This cannot be solved with more color representatives.
+Problem 2 will be ok once we integrate pixelation. Problem 1 and 3 require the algorithm to be odds-aware.
+```
+ver.2:
+Use LAB instead of RGB. Problem 2 partially solved. Problem 1, 3 not solved yet.
