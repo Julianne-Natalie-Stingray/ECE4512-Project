@@ -4,10 +4,10 @@ import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
 
 
-PATH = r"Project/test_cases/why_are_you_sitting.jpg"
-OUT_PATH = r"D:\pythonProject\Private\CUHKSZ Schoolwork\Y1T2S\ECE4512\Project\palette_logic\ver.2_LAB_colors\output.jpg"
+PATH = r"D:\pythonProject\Private\CUHKSZ Schoolwork\Y1T2S\ECE4512\Pixelate Everything\MVP ver.1\outputs\hatsune_miku_px10_mean.png"
+OUT_PATH = r"D:\pythonProject\Private\CUHKSZ Schoolwork\Y1T2S\ECE4512\Pixelate Everything\palette_logic\ver.2_LAB_colors\output.jpg"
 
-PALETTE_SIZE = 16
+PALETTE_SIZE = 512
 
 
 def derive(img, palette_size = 32):

@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
 
 
-PATH = r"Project\palette_logic\ver.1\test_cases\van_gogh_starsky.jpg"
+PATH = r"D:\pythonProject\Private\CUHKSZ Schoolwork\Y1T2S\ECE4512\Pixelate Everything\MVP ver.1\outputs\hatsune_miku_px10_mean.png"
 OUT_PATH = r"Project/palette_logic/ver.1/output.jpg"
 
 PALETTE_SIZE = 16
